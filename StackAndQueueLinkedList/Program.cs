@@ -26,6 +26,10 @@ namespace StackAndQueueLinkedList
             linkedListQueue.Enqueue(30);
             linkedListQueue.Enqueue(56);
             linkedListQueue.Display();
+
+            linkedListQueue.Dequeue();
+            Console.WriteLine("After performing one dequeue operation the queue is having  : ");
+            linkedListQueue.Display();
         }
     }
 }
